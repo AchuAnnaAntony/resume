@@ -8,7 +8,7 @@ import { projects } from '@/data/projects';
 
 export const Projects: React.FC = () => {
   return (
-    <Section id="projects" title="Projects">
+    <Section id="projects" title="PROJECTS">
       <div
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
         role="list"

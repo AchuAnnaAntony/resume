@@ -2,11 +2,22 @@ import { Experience } from '@/types';
 
 export const experiences: Experience[] = [
   {
+    id: 'Freelancer',
+    title: 'Fullstack Engineer- Freelancer',
+    company: '',
+    location: '',
+    period: 'Nov 2025 – Present',
+    type: 'full-time',
+    responsibilities: [
+      'Used AI tools such as Cursor AI and Claude AI to build and optimize Next.js application',
+    ],
+  },
+  {
     id: 'career-break',
     title: 'Career Hiatus',
     company: '',
     location: '',
-    period: 'Aug 2023 – Present',
+    period: 'Aug 2023 – Nov 2025',
     type: 'transition',
     responsibilities: [
       'Pursuing Google Project Management Certification',

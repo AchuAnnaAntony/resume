@@ -4,11 +4,11 @@ import { personalInfo } from '@/data/personal';
 
 export const About: React.FC = () => {
   return (
-    <Section id="about" title="About Me">
+    <Section id="about" title="ABOUT ME">
       <div className="max-w-3xl mx-auto">
         <article className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8">
           {personalInfo.summary && (
-            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6 text-justify">
               {personalInfo.summary}
             </p>
           )}

@@ -14,7 +14,7 @@ export const Experience: React.FC = () => {
   }));
 
   return (
-    <Section id="experience" title="Experience">
+    <Section id="experience" title="EXPERIENCE">
       <div className="max-w-4xl mx-auto" role="region" aria-label="Work experience">
         <Timeline items={timelineItems} />
       </div>

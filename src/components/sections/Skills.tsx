@@ -5,7 +5,7 @@ import { skillCategories } from '@/data/skills';
 
 export const Skills: React.FC = () => {
   return (
-    <Section id="skills" title="Skills">
+    <Section id="skills" title="SKILLS">
       <div className="max-w-4xl mx-auto">
         {skillCategories.map((category) => (
           <article key={category.category} className="mb-8">

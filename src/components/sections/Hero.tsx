@@ -20,7 +20,7 @@ export const Hero: React.FC = () => {
       aria-label="Introduction"
     >
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center gap-8">
+        <div className="flex flex-col items-center gap-8">
           <div className="flex-shrink-0">
             <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <Image
@@ -32,20 +32,20 @@ export const Hero: React.FC = () => {
               />
             </div>
           </div>
-          <header className="flex-1 text-center md:text-left">
+          <header className="flex-1 text-center">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
               {personalInfo.name}
             </h1>
             <p className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-6">
               {personalInfo.title}
             </p>
-            {personalInfo.summary && (
-              <p className="text-lg text-gray-700 dark:text-gray-400 mb-8 max-w-2xl">
-                {personalInfo.summary}
+            {personalInfo.shortSummary && (
+              <p className="text-lg text-gray-700 dark:text-gray-400 mb-8 max-w-2xl mx-auto text-justify">
+                {personalInfo.shortSummary}
               </p>
             )}
             <nav
-              className="flex flex-wrap gap-4 justify-center md:justify-start"
+              className="flex flex-wrap gap-4 justify-center"
               aria-label="Hero actions"
             >
               <Button
