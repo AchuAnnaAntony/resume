@@ -35,11 +35,11 @@ export const Timeline: React.FC<TimelineProps> = ({ items, className = '' }) => 
                     {item.title}
                   </h3>
                   {item.subtitle && (
-                    <p className="text-gray-600 dark:text-gray-400">{item.subtitle}</p>
+                    <p className="text-gray-600 dark:text-gray-300">{item.subtitle}</p>
                   )}
                 </div>
                 <time
-                  className="text-sm text-gray-500 dark:text-gray-500 mt-1 md:mt-0"
+                  className="text-sm text-gray-600 dark:text-gray-400 mt-1 md:mt-0"
                   dateTime={item.date}
                 >
                   {item.date}

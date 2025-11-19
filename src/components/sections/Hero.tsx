@@ -40,7 +40,7 @@ export const Hero: React.FC = () => {
               {personalInfo.title}
             </p>
             {personalInfo.shortSummary && (
-              <p className="text-lg text-gray-700 dark:text-gray-400 mb-8 max-w-2xl mx-auto text-justify">
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 max-w-2xl mx-auto text-justify">
                 {personalInfo.shortSummary}
               </p>
             )}

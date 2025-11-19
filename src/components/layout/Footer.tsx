@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-gray-400">
+            <p className="text-gray-300">
               © {currentYear} {personalInfo.name}. All rights reserved.
             </p>
           </div>
@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
                 href={personalInfo.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-gray-300 hover:text-white transition-colors"
               >
                 GitHub
               </a>
@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
                 href={personalInfo.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-gray-300 hover:text-white transition-colors"
               >
                 LinkedIn
               </a>
@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
                 href={personalInfo.website}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-gray-300 hover:text-white transition-colors"
               >
                 Website
               </a>

@@ -17,7 +17,7 @@ export const About: React.FC = () => {
               <dt className="font-semibold text-gray-900 dark:text-white mb-2">
                 Location
               </dt>
-              <dd className="text-gray-600 dark:text-gray-400">
+              <dd className="text-gray-700 dark:text-gray-300">
                 {personalInfo.location}
               </dd>
             </div>
@@ -29,7 +29,7 @@ export const About: React.FC = () => {
                 <dd>
                   <a
                     href={`mailto:${personalInfo.email}`}
-                    className="text-blue-600 dark:text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+                    className="text-blue-700 dark:text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
                     aria-label={`Email ${personalInfo.name} at ${personalInfo.email}`}
                   >
                     {personalInfo.email}

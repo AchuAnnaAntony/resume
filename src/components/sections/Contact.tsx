@@ -30,7 +30,7 @@ export const Contact: React.FC = () => {
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Get In Touch
             </h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-6">
+            <p className="text-gray-700 dark:text-gray-300 mb-6">
               Feel free to reach out if you'd like to collaborate or have any
               questions.
             </p>
@@ -41,7 +41,7 @@ export const Contact: React.FC = () => {
                 </h4>
                 <a
                   href={`mailto:${personalInfo.email}`}
-                  className="text-blue-600 dark:text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+                  className="text-blue-700 dark:text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
                   aria-label={`Email ${personalInfo.name} at ${personalInfo.email}`}
                 >
                   {personalInfo.email}
@@ -54,7 +54,7 @@ export const Contact: React.FC = () => {
                   </h4>
                   <a
                     href={`tel:${personalInfo.phone}`}
-                    className="text-blue-600 dark:text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+                    className="text-blue-700 dark:text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
                     aria-label={`Call ${personalInfo.name} at ${personalInfo.phone}`}
                   >
                     {personalInfo.phone}
@@ -71,7 +71,7 @@ export const Contact: React.FC = () => {
                       href={personalInfo.linkedin}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-600 dark:text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+                      className="text-blue-700 dark:text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
                       aria-label={`Visit ${personalInfo.name}'s LinkedIn profile (opens in new tab)`}
                     >
                       LinkedIn
@@ -82,7 +82,7 @@ export const Contact: React.FC = () => {
                       href={personalInfo.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-600 dark:text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+                      className="text-blue-700 dark:text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
                       aria-label={`Visit ${personalInfo.name}'s GitHub profile (opens in new tab)`}
                     >
                       GitHub
